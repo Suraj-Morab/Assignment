@@ -1,0 +1,26 @@
+                                                                Django Pre-Work
+
+1. User registration API.
+
+2. Make Login API using JWT Authentication.
+
+3. Make a CRUD API of product with sorting, searching and pagination.
+    a. Product should have minimum 2 Foreign Keys. Ex. Brand, Category etc.
+    b. While creating a product, supply of FK should be an optional field.
+
+4. Make a CRUD API for cart.
+    a. Only Logged in user can add product to cart.
+    b. Users can add, edit, delete products with quantity, it should reflect in DB, on re-login should fetch the data
+        from DB and display. (Can refer working of Amazon cart.)
+
+> Bonus (Do this in the same project, in a different app):
+    • Make 2 simple models, Chapter and Concept (consists FK of Chapter)
+    • Make an API such that, while creating chapter, the same API should be able to create concepts at the same time in one request.
+
+> Instructions:
+    • Use Python 3/Django 2+
+    • All APIs to be made in DRF.
+    • Make different apps for product and cart in the same project.
+    • You are free to use a 3rd party library for JWT.
+    • Upload the code to GitHub, there should be two branches. master/main and develop. Code should reside in develop branch,
+    readme.md file should be in master branch.
